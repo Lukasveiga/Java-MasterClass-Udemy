@@ -1,18 +1,8 @@
-## Getting Started
+**Java Programming Masterclass**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Learn the core Java skills needed to apply for Java developer positions. <br>
+* Be able to sit for and pass the Oracle Java Certificate exam if you choose. <br>
+* Be able to demonstrate your understanding of Java to future employers.<br>
+* Learn industry "best practices" in Java software development from a professional Java developer who has worked in the language for 18 years.<br>
+* Acquire essential java basics for transitioning to the Spring Framework, Java EE, Android development and more.<br>
+* Obtain proficiency in Java 8, 11 and 17.<br>
