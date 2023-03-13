@@ -10,6 +10,7 @@ public abstract class Employee extends Worker{
 
     public Employee(){
         super();
+
         employeeId += 1;
     }
 
@@ -22,7 +23,7 @@ public abstract class Employee extends Worker{
         employeeId += 1;
     }
 
-    public static int getEmployeeId() {
+    public int getEmployeeId() {
         return employeeId;
     }
 
