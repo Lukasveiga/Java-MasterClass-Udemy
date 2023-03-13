@@ -3,10 +3,10 @@ package com.masterclass.newcontent.section07.exampleOne;
 public abstract class Animal {
 
     private String type;
-    private double size;
+    private String size;
     private double weight;
 
-    public Animal(String type, double size, double weight) {
+    public Animal(String type, String size, double weight) {
         this.type = type;
         this.size = size;
         this.weight = weight;
@@ -24,11 +24,22 @@ public abstract class Animal {
         return type;
     }
 
-    public double getSize() {
+    public String getSize() {
         return size;
     }
 
     public double getWeight() {
         return weight;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "type='" + type + '\'' +
+                ", size='" + size + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
+
+
 }
