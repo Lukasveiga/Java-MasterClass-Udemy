@@ -13,6 +13,5 @@ public class Main {
         System.out.println(e1.getAge());
         System.out.println(e2.getAge());
 
-
     }
 }
