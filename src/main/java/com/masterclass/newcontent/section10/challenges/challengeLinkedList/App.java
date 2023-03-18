@@ -8,17 +8,17 @@ public class App {
 
     public static void main(String[] args) {
 
-        boolean flag = false;
+        boolean quit = false;
         boolean foward = true;
         LinkedList<Town> list = TownList.createListOfTowns();
         var iterator = list.listIterator();
 
-        while (!flag) {
+        while (!quit) {
 
             showMenu();
-            String awnser = scan.nextLine();
+            String answer = scan.nextLine();
 
-            switch (awnser.toLowerCase().charAt(0)) {
+            switch (answer.toLowerCase().charAt(0)) {
                 case 'f' -> {
                     System.out.println("Next Town: ");
                     if (!foward) {
@@ -54,7 +54,7 @@ public class App {
                 case 'l' -> System.out.println(list);
                 case 'q' -> {
                     System.out.println("Closing the program...");
-                    flag = true;
+                    quit = true;
                 }
             }
 
