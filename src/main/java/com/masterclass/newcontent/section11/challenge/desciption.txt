@@ -1,0 +1,28 @@
+In this challenge we'll be working on creating some Mappable output.
+
+For this challenge, we'll simply create a String for every feature that will be mapped.
+
+An example of:
+
+        "properties" : {"name" : "Sydney Opera House", "usage" : "Entertainment"}
+
+*First, create a Mappable Interface.
+
+The interface should force classes to implement three methods:
+    - One method should return a label (how the item will be described on the map);
+    - One should return geometry type (Point or Line) which is that the type will look like on tem map;
+    - The last should return an icon type (sometimes called a map marker);
+
+ In addition to the three methods described, the interface should also include:
+    - A constant String value called JSON_PROPERTY, which is equal to : "properties":{%s};
+    - Include a default method called toJSON() that prints out the type, label, and marker;
+    - A static method, that takes a Mappable instance as an argument. This method should print out the properties
+    for each mappable type, including those mentioned above, but also any other fields on the business classes.
+
+ *Example1:
+
+        "properties":{"type": "POINT", "label": "Sydney Town Hall (GOVERNMENT)", "marker": "RED STAR", "name": "Sydney Town Hall", "usage": "GOVERNMENT"}
+
+ *Example2:
+
+        "properties":{"type": "LINE", "label": "College St (FIBER_OPTIC)", "marker": "GREEN DOTTED", "name": "College St", "utility": "FIBER_OPTIC"}
