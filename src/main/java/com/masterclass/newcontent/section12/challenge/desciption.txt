@@ -1,0 +1,8 @@
+Another Mappable Interface
+
+First start with a Mappable interface, that has one abstract method, render;
+Than, we'll create two classes Point and Line, that implement this interface;
+We'll create two specific classes that extend each of these, for a mappable item of interest;
+In addition to these classes, we'll create a generic class called Layer;
+Our layer class should have one type parameter, and should only allow Mappable elements as that type;
+This generic class should have a single private field, a list of elements to be mapped;
