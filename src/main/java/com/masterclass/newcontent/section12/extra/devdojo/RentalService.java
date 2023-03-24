@@ -1,4 +1,4 @@
-package com.masterclass.newcontent.section12.extra;
+package com.masterclass.newcontent.section12.extra.devdojo;
 
 import java.util.List;
 
